@@ -1,11 +1,13 @@
-import { SideMenu } from "../../components/SideMenu";
+import { HeaderMenu } from "../../components/HeaderMenu";
+import { Article } from "../../components/Article";
 
 import styles from "./HomePage.module.scss";
 
 export const HomePage = () => {
     return(
         <div className={styles.homePageContainer}>
-            <SideMenu />
+            <HeaderMenu />
+            <Article />
         </div>
     );
 }

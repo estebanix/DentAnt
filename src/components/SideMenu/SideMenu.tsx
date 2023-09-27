@@ -1,8 +1,8 @@
-import styles from "./SideMenu.module.scss";
-
 import { sideMenuItems } from "../../utils/constans/sideMenuItems";
 import { Image } from "../Image";
 import { Link } from "react-router-dom";
+
+import styles from "./SideMenu.module.scss";
 
 export const SideMenu = () => {
     return(

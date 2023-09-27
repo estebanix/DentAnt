@@ -1,5 +1,5 @@
-import './styles/App.css';
-import { HomePage } from './containers/HomePage.tsx';
+import '../styles/App.css';
+import { HomePage } from '../containers/HomePage.tsx/index.ts';
 import {Route, Routes} from "react-router-dom"
  
 function App() {
