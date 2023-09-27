@@ -1,19 +1,33 @@
 import { HeaderMenu } from "../../components/HeaderMenu";
 import { Article } from "../../components/Article";
+import { Section } from "../../components/Section";
 import texts from "./../../../public/locales/texts.json";
 
 import styles from "./HomePage.module.scss";
 
 export const HomePage = () => {
-    const { homePageMainTitle, homePageMainText } = texts;
+    const { homePageMainTitle, homePageMainText, homePageSecondTitle, homePageSecondText, homePageThirdTitle, homePageThirdText } = texts;
     return(
         <div className={styles.homePageContainer}>
             <HeaderMenu />
-            <Article 
-                title={homePageMainTitle} 
-                text={homePageMainText} 
-                right={false}
-            />
+            <Section>
+                <Article 
+                    title={homePageMainTitle} 
+                    text={homePageMainText} 
+                />
+            </Section>
+            <Section>
+                <Article 
+                    title={homePageSecondTitle} 
+                    text={homePageSecondText} 
+                />
+            </Section>
+            <Section>
+                <Article 
+                    title={homePageThirdTitle} 
+                    text={homePageThirdText} 
+                />
+            </Section>
         </div>
     );
 }

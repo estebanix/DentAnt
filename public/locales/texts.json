@@ -1,4 +1,8 @@
 {
     "homePageMainTitle" : "Dental pathology score: Yes, we can.",
-    "homePageMainText" : "Immerse yourself in the realm of dental pathology scoring with our specialized web application crafted to support discerning anthropological researchers in meticulous data processing and visualization of dental pathology records. Unveil nuanced insights into human remains through precise data analysis and advanced visualization techniques."
+    "homePageMainText" : "Immerse yourself in the realm of dental pathology scoring with our specialized web application crafted to support discerning anthropological researchers in meticulous data processing and visualization of dental pathology records. Unveil nuanced insights into human remains through precise data analysis and advanced visualization techniques.",
+    "homePageSecondTitle" : "Commencing the Journey",
+    "homePageSecondText" : "Initiate your dental pathology scoring exploration by meticulously inputting your comprehensive dataset. Choose between seamlessly uploading an Excel file or manually inputting the intricate data through our refined interface. Our robust analytical engine will expeditiously compute essential metrics based on the provided data.",
+    "homePageThirdTitle" : "Unveiling the Application",
+    "homePageThirdText" : "Our platform is purposefully architected to prioritize scholarly rigor and analytical efficiency, allowing researchers to engage deeply with their discoveries without being encumbered by intricate data intricacies. We remain steadfast in advancing anthropological research by providing a refined, yet accessible tool. Eager to traverse the fascinating landscape of dental pathology scoring? Initiate your journey by navigating to our Data Input page."
 }
