@@ -2,6 +2,9 @@ import { HeaderMenu } from "../../components/HeaderMenu";
 import { Article } from "../../components/Article";
 import { Section } from "../../components/Section";
 import texts from "./../../../public/locales/texts.json";
+import { Image } from "../../components/Image";
+
+import logo from "./../../../public/icons/logo.jpg";
 
 import styles from "./HomePage.module.scss";
 
@@ -21,6 +24,7 @@ export const HomePage = () => {
                     title={homePageSecondTitle} 
                     text={homePageSecondText} 
                 />
+                <Image src={logo} />
             </Section>
             <Section>
                 <Article 

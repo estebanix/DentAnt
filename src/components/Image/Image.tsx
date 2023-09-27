@@ -1,9 +1,11 @@
 import styles from "./Image.module.scss";
 
-import logo from "./../../../public/icons/logo.jpg"
+interface ImageProps {
+    src: string;
+}
 
-export const Image = () => {
+export const Image: React.FC <ImageProps> = ({src}) => {
     return (
-        <img className={styles.logo} src={logo} />
+        <img className={styles.logo} src={src} />
     );
 }
