@@ -11,7 +11,7 @@ export const SideMenu = () => {
         >
             <Image />
             {sideMenuItems.map((item, index) => {
-                return <Link to={`/${item.to}`}><p key={index}>{item.title}</p></Link>
+                return <Link to={item.to}><p className={styles.itemText} key={index}>{item.title}</p></Link>
             })}
         </div>
     );
