@@ -1,5 +1,34 @@
 .articleContainer {
-    width: 50%;
-    height: 300px;
-    background-color: aqua;
+    width: 60%;
+    margin: 50px 10%;
+    height: auto;
+    padding: 20px;
+
+    &.right {
+        float: right;
+    }
+
+    &.left {
+        float: left;
+    }
+}
+
+.articleTitle {
+    font-size: 3em;
+    padding-bottom: 30px;
+}
+
+.articleParag {
+    font-size: 1.2em;
+    line-height: 1.8em;
+}
+
+.flow {
+    padding: auto;
+}
+
+@media (max-width: 767px) {
+    .articleContainer {
+        width: 80%;
+    }
 }
