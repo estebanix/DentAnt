@@ -1,24 +1,20 @@
 import { HeaderMenu } from "../../components/HeaderMenu";
 import { Article } from "../../components/Article";
 import { Section } from "../../components/Section";
-import { Button } from "../../components/Button";
+import { Card } from "../../components/Card/Card";
+import { HeroBox } from "./HeroBox";
 import texts from "./../../../public/locales/texts.json";
 
 import styles from "./HomePage.module.scss";
 
 export const HomePage = () => {
-    const { homePageMainTitle, homePageMainText, homePageSecondTitle, homePageSecondText, homePageThirdTitle, homePageThirdText } = texts;
+    const { homePageSecondTitle, homePageSecondText, homePageThirdTitle, homePageThirdText } = texts;
     return(
         <div className={styles.homePageContainer}>
             <HeaderMenu />
             <Section>
-                <Article 
-                    title={homePageMainTitle} 
-                    text={homePageMainText} 
-                />
-            </Section>
-            <Section>
-                <Button text="Documentation" />
+                <HeroBox />
+                <Card />
             </Section>
             <Section>
                 <Article 

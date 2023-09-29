@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import logo from "./../../../public/icons/logo.jpg";
 
 import styles from "./HeaderMenu.module.scss";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export const HeaderMenu = () => {
     return (
@@ -14,6 +16,7 @@ export const HeaderMenu = () => {
                     return <Link to={item.to}><p key={index}>{item.title}</p></Link>
                 })}
             </div>
+            <a href="https://github.com/estebanix/DentAnt"><FontAwesomeIcon icon={faGithub} /></a>
         </div>
     );
 }
