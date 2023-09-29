@@ -1,6 +1,7 @@
 import { HeaderMenu } from "../../components/HeaderMenu";
 import { Article } from "../../components/Article";
 import { Section } from "../../components/Section";
+import { Button } from "../../components/Button";
 import texts from "./../../../public/locales/texts.json";
 
 import styles from "./HomePage.module.scss";
@@ -15,6 +16,9 @@ export const HomePage = () => {
                     title={homePageMainTitle} 
                     text={homePageMainText} 
                 />
+            </Section>
+            <Section>
+                <Button text="Documentation" />
             </Section>
             <Section>
                 <Article 
