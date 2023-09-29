@@ -1,8 +1,6 @@
 import { Article } from "../../../components/Article";
-import { Image } from "../../../components/Image";
+import { Button } from "../../../components/Button";
 import texts from "./../../../../public/locales/texts.json";
-
-import logo from "./../../../../public/icons/logo.jpg";
 
 import styles from "./HeaderBox.module.scss";
 
@@ -14,7 +12,10 @@ export const HeroBox = () => {
                     title={homePageMainTitle} 
                     text={homePageMainText} 
             />
-            <Image src={logo} />
+            <div className={styles.btnBox}>
+                <Button text="Documentation" colorVariant="primary" />
+                <Button text="App" colorVariant="secondary" />
+            </div>
         </div>
     );
 }

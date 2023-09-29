@@ -1,7 +1,6 @@
 import { HeaderMenu } from "../../components/HeaderMenu";
 import { Article } from "../../components/Article";
 import { Section } from "../../components/Section";
-import { Card } from "../../components/Card/Card";
 import { HeroBox } from "./HeroBox";
 import texts from "./../../../public/locales/texts.json";
 
@@ -14,7 +13,6 @@ export const HomePage = () => {
             <HeaderMenu />
             <Section>
                 <HeroBox />
-                <Card />
             </Section>
             <Section>
                 <Article 
