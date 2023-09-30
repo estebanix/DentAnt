@@ -1,5 +1,6 @@
 import { Article } from "../../../components/Article";
 import { Button } from "../../../components/Button";
+import { BoxRow } from "../../../components/BoxRow";
 import texts from "./../../../../public/locales/texts.json";
 
 import styles from "./HeaderBox.module.scss";
@@ -12,10 +13,10 @@ export const HeroBox = () => {
                     title={homePageMainTitle} 
                     text={homePageMainText} 
             />
-            <div className={styles.btnBox}>
+            <BoxRow>
                 <Button text="Documentation" colorVariant="primary" />
                 <Button text="App" colorVariant="secondary" />
-            </div>
+            </BoxRow>
         </div>
     );
 }
