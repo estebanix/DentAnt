@@ -2,6 +2,7 @@ import { HeaderMenu } from "../../components/HeaderMenu";
 import { Article } from "../../components/Article";
 import { Section } from "../../components/Section";
 import { HeroBox } from "./HeroBox";
+import { Footer } from "../../components/Footer";
 import texts from "./../../../public/locales/texts.json";
 
 import styles from "./HomePage.module.scss";
@@ -26,6 +27,7 @@ export const HomePage = () => {
                     text={homePageThirdText} 
                 />
             </Section>
+            <Footer />
         </div>
     );
 }

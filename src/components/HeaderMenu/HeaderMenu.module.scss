@@ -19,3 +19,17 @@
     align-items: center;
     margin: 0 50px 0 auto;
 }
+
+.headerMenuLink {
+    position: relative;
+}
+
+.headerMenuLink p {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+.headerMenuLink:hover p {
+    border-bottom: 2px solid #555a64;
+}
+
