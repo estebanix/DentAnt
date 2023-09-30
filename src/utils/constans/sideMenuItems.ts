@@ -6,8 +6,8 @@ import {
 } from "./routes";
 
 export const sideMenuItems = [
-    {title: "Home", to: HOME_PAGE_PATH},
-    {title: "Documentation", to: DOCUMENTATION_PAGE_PATH},
-    {title: "Data Procesing", to: DATAPROCESSING_PAGE_PATH},
-    {title: "Visualization", to: VISUALIZATION_PAGE_PATH}
+    {title: "Something1", to: HOME_PAGE_PATH},
+    {title: "Something2", to: DOCUMENTATION_PAGE_PATH},
+    {title: "Something3", to: DATAPROCESSING_PAGE_PATH},
+    {title: "Something4", to: VISUALIZATION_PAGE_PATH}
 ]

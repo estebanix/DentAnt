@@ -1,13 +1,14 @@
 .headerContainer {
-    width: 16%;
+    width: 14%;
     background-color: white;
-    height: 100vh;
-    padding: 20px;
+    height: calc(100vh - 90px);
+    padding: 20px 40px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
+    border-right: 1px solid red;
 }
 
 .itemText {

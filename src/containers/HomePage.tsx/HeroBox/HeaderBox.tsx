@@ -14,7 +14,7 @@ export const HeroBox = () => {
                     title={homePageMainTitle} 
                     text={homePageMainText} 
             />
-            <BoxRow>
+            <BoxRow gapWidth={20}>
                 <Link to="/documentation"><Button text="Documentation" colorVariant="primary" /></Link>
                 <Link to="/app"><Button text="App" colorVariant="secondary" /></Link>
             </BoxRow>
