@@ -4,6 +4,7 @@ import { BoxRow } from "../../../components/BoxRow";
 import texts from "./../../../../public/locales/texts.json";
 
 import styles from "./HeaderBox.module.scss";
+import { Link } from "react-router-dom";
 
 export const HeroBox = () => {
     const {homePageMainTitle, homePageMainText} = texts;
@@ -14,8 +15,8 @@ export const HeroBox = () => {
                     text={homePageMainText} 
             />
             <BoxRow>
-                <Button text="Documentation" colorVariant="primary" />
-                <Button text="App" colorVariant="secondary" />
+                <Link to="/documentation"><Button text="Documentation" colorVariant="primary" /></Link>
+                <Link to="/app"><Button text="App" colorVariant="secondary" /></Link>
             </BoxRow>
         </div>
     );
