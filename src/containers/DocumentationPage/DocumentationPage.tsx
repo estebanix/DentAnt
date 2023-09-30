@@ -1,5 +1,6 @@
 import { HeaderMenu } from "../../components/HeaderMenu";
 import { SideMenu } from "../../components/SideMenu";
+import { DocsContainer } from "./DocsContainer";
 import { BoxRow } from "../../components/BoxRow";
 
 import styles from "./DocumentationPage.module.scss";
@@ -10,7 +11,7 @@ export const DocumentationPage = () => {
                 <HeaderMenu />
                 <BoxRow>
                     <SideMenu />
-                    <SideMenu />
+                    <DocsContainer />
                 </BoxRow>
 
         </div>
