@@ -15,7 +15,9 @@ export const DocsContainer: React.FC<DocsContainerProps> = () => {
 
   return (
     <div className={styles.docsContainer}>
-      {filteredData && <Article title={filteredData.title} />}
+      {filteredData && (
+        <Article title={filteredData.title} text={filteredData.content} />
+      )}
     </div>
   );
 };

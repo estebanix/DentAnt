@@ -8,7 +8,7 @@ import styles from "./SideMenu.module.scss";
 export const SideMenu = () => {
     const {setSiteValue} = useContext(Context);
 
-    const handle = (id) => {
+    const handle = (id : number) => {
         setSiteValue(id)
     }
 

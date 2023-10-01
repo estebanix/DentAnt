@@ -10,7 +10,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 export const HeaderMenu = () => {
     return (
         <div className={styles.headerMenuContainer}>
-            <Image src={logo} />
+            <Link to="/"><Image src={logo} /></Link>
             <div className={styles.headerMenuItemBox}>
                 {headerMenuItems.map((item, index) => {
                     return <Link to={item.to} className={styles.headerMenuLink}><p key={index}>{item.title}</p></Link>
