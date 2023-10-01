@@ -1,0 +1,24 @@
+[
+    {   
+        "id" : 1,
+        "title" : "Začátek",
+        "content" : "Text o začátku."
+    },
+    {   
+        "id" : 2,
+        "title" : "Pokračováňo",
+        "content" : "Text o začátku."
+    }
+    ,
+    {   
+        "id" : 3,
+        "title" : "Predkonec",
+        "content" : "Text o začátku."
+    },
+    {   
+        "id" : 4,
+        "title" : "Konec",
+        "content" : "Text o začátku."
+    }
+
+]

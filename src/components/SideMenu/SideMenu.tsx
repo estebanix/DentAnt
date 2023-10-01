@@ -1,15 +1,23 @@
+import { Context } from "./../../components/Context/Context";
+import { useContext } from 'react';
+
 import { sideMenuItems } from "../../utils/constans/sideMenuItems";
-import { Link } from "react-router-dom";
 
 import styles from "./SideMenu.module.scss";
 
 export const SideMenu = () => {
+    const {setSiteValue} = useContext(Context);
+
+    const handle = (id) => {
+        setSiteValue(id)
+    }
+
     return(
         <div
             className={styles.headerContainer}
         >
             {sideMenuItems.map((item, index) => {
-                return <Link to={item.to}><p className={styles.itemText} key={index}>{item.title}</p></Link>
+                return <p onClick={() => handle(item.id)} className={styles.itemText} key={index}>{item.title}</p>
             })}
         </div>
     );

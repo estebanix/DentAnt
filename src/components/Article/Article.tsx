@@ -3,7 +3,7 @@ import styles from './Article.module.scss';
 
 interface ArticleProps {
     title: string;
-    text: string;
+    text?: string;
 }
 
 export const Article: React.FC<ArticleProps> = ({ title, text }) => {
