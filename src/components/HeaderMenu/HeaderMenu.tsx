@@ -13,7 +13,7 @@ export const HeaderMenu = () => {
             <Link to="/"><Image src={logo} /></Link>
             <div className={styles.headerMenuItemBox}>
                 {headerMenuItems.map((item, index) => {
-                    return <Link to={item.to} className={styles.headerMenuLink}><p key={index}>{item.title}</p></Link>
+                    return <Link to={item.to} key={index} className={styles.headerMenuLink}><p>{item.title}</p></Link>
                 })}
             </div>
             <a href="https://github.com/estebanix/DentAnt"><FontAwesomeIcon icon={faGithub} /></a>
