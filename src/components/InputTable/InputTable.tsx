@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import styles from "./InputTable.module.scss";
+import { Context } from "../../context/Context";
 
 type DataArray = (string | number)[][];
 
@@ -19,7 +20,7 @@ const colArr = [
   "25",
   "26",
   "27",
-  "28"
+  "28",
 ];
 const dentalParameters = [
   "Tooth presence, absence, carious",
@@ -56,11 +57,15 @@ const dentalParameters = [
 const initialRows = dentalParameters.length;
 const initialCols = 17;
 
-const rowNames = Array.from({ length: 29 }, (_, index) => dentalParameters[index]);
+const rowNames = Array.from(
+  { length: 29 },
+  (_, index) => dentalParameters[index]
+);
 
 const colNames = Array.from({ length: 17 }, (_, index) => colArr[index]);
 
 export const InputTable = () => {
+  const { setSumData } = useContext(Context);
   const createEmptyRow = () => Array(initialCols).fill("");
   const [data, setData] = useState<DataArray>(() => [
     colNames,
@@ -75,8 +80,8 @@ export const InputTable = () => {
         : row
     );
     setData(newData);
+    setSumData(newData);
   };
-
 
   return (
     <div className={styles.inputTable}>
