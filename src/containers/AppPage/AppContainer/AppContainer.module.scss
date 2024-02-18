@@ -1,9 +1,10 @@
 .appContainer {
-    width: 100%;
+    width: 80%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin: 50px auto;
+    gap: 34px;
 }
 
 .input{

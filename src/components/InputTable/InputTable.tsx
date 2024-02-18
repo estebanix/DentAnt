@@ -56,8 +56,6 @@ const dentalParameters = [
 const initialRows = dentalParameters.length;
 const initialCols = 17;
 
-console.log(colArr.length);
-
 const rowNames = Array.from({ length: 29 }, (_, index) => dentalParameters[index]);
 
 const colNames = Array.from({ length: 17 }, (_, index) => colArr[index]);
@@ -78,6 +76,7 @@ export const InputTable = () => {
     );
     setData(newData);
   };
+
 
   return (
     <div className={styles.inputTable}>
