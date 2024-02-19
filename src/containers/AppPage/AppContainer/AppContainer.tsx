@@ -2,6 +2,7 @@
 import { Button } from "../../../components/Button";
 import { InputTable } from "../../../components/InputTable";
 import { useContext, useState } from "react";
+import { ResultTable } from "../../../components/ResultTable";
 
 import styles from "./AppContainer.module.scss";
 import { Context } from "../../../context/Context";
@@ -34,6 +35,7 @@ export const AppContainer = () => {
       <InputTable />
       <Button text="Submit" colorVariant="secondary" reaction={makeSum} />
       <p>Sum is: {sum}</p>
+      <ResultTable />
     </div>
   );
 };
