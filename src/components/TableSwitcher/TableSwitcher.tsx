@@ -4,7 +4,7 @@ import { useContext } from "react";
 import styles from "./TableSwitcher.module.scss";
 
 export const TableSwitcher = () => {
-  const { setCurrentTable } = useContext(Context);
+  const { currentTable, setCurrentTable } = useContext(Context);
   const a = [1, 2, 3];
 
   const handle = (id: number) => {
@@ -15,7 +15,15 @@ export const TableSwitcher = () => {
     <>
       <div className={styles.tableSwitcher}>
         {a.map((table) => {
-          return <p key={table} onClick={() => handle(table)}>Table{table}</p>;
+          return (
+            <p
+            className={`${styles.tableSwitcherBtn} ${currentTable === table ? styles.active : ''}`}
+              key={table}
+              onClick={() => handle(table)}
+            >
+              Table{table}
+            </p>
+          );
         })}
       </div>
     </>

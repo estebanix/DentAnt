@@ -10,7 +10,7 @@ import { Context } from "../../../context/Context";
 
 export const AppContainer = () => {
   const [sum, setSum] = useState("");
-  const { sumData } = useContext(Context);
+  const { sumData, currentTable } = useContext(Context);
 
   const makeSum = () => {
     let totalSum = 0;
@@ -34,6 +34,7 @@ export const AppContainer = () => {
     <div className={styles.appContainer}>
       {/*<DataUploader />*/}
       <TableSwitcher />
+      <p>{currentTable}</p>
       <InputTable />
       <Button text="Submit" colorVariant="secondary" reaction={makeSum} />
       <p>Sum is: {sum}</p>
