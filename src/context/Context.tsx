@@ -5,6 +5,8 @@ export interface ContextType {
   setSiteValue: (value: number) => void;
   sumData: object;
   setSumData: (value: object) => void;
+  currentTable: number;
+  setCurrentTable: (value: number) => void;
 }
 
 export const Context = createContext<ContextType>({} as ContextType);
@@ -12,6 +14,7 @@ export const Context = createContext<ContextType>({} as ContextType);
 const ContextProvider = (props: any) => {
   const [siteValue, setSiteValue] = useState(1);
   const [sumData, setSumData] = useState({});
+  const [currentTable, setCurrentTable] = useState(1);
 
   return (
     <Context.Provider
@@ -20,6 +23,8 @@ const ContextProvider = (props: any) => {
         setSiteValue,
         sumData,
         setSumData,
+        currentTable,
+        setCurrentTable
       }}
     >
       {props.children}

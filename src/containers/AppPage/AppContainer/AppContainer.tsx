@@ -3,6 +3,7 @@ import { Button } from "../../../components/Button";
 import { InputTable } from "../../../components/InputTable";
 import { useContext, useState } from "react";
 import { ResultTable } from "../../../components/ResultTable";
+import { TableSwitcher } from "../../../components/TableSwitcher";
 
 import styles from "./AppContainer.module.scss";
 import { Context } from "../../../context/Context";
@@ -32,6 +33,7 @@ export const AppContainer = () => {
   return (
     <div className={styles.appContainer}>
       {/*<DataUploader />*/}
+      <TableSwitcher />
       <InputTable />
       <Button text="Submit" colorVariant="secondary" reaction={makeSum} />
       <p>Sum is: {sum}</p>
