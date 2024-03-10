@@ -7,6 +7,8 @@ import { TableSwitcher } from "../../../components/TableSwitcher";
 
 import styles from "./AppContainer.module.scss";
 import { Context } from "../../../context/Context";
+import { DataUploader } from "../../../components/DataUploader";
+import { IndividualSwitcher } from "../../../components/IndividualSwitcher";
 
 export const AppContainer = () => {
   const [sum, setSum] = useState("");
@@ -32,10 +34,10 @@ export const AppContainer = () => {
 
   return (
     <div className={styles.appContainer}>
-      {/*<DataUploader />*/}
+      <DataUploader />
+      <IndividualSwitcher />
       <TableSwitcher />
-      <p>{currentTable}</p>
-      <InputTable />
+      {currentTable == 1 ? <InputTable /> : <DataUploader />}
       <Button text="Submit" colorVariant="secondary" reaction={makeSum} />
       <p>Sum is: {sum}</p>
       <ResultTable />

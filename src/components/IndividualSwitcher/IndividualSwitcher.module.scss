@@ -1,0 +1,22 @@
+.tableSwitcher {
+    width: auto;
+    max-width: 500px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+  }
+  
+  .tableSwitcherBtn {
+      color: black;
+      cursor: pointer;
+      width: 80px;
+      text-align: center;
+    
+      &.active {
+        color: turquoise; 
+      }
+    }
+  
