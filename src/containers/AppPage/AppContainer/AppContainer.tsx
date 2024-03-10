@@ -1,18 +1,18 @@
 //import { DataUploader } from "../../../components/DataUploader";
 import { Button } from "../../../components/Button";
-import { InputTable } from "../../../components/InputTable";
+//import { InputTable } from "../../../components/InputTable";
 import { useContext, useState } from "react";
 import { ResultTable } from "../../../components/ResultTable";
 import { TableSwitcher } from "../../../components/TableSwitcher";
 
 import styles from "./AppContainer.module.scss";
 import { Context } from "../../../context/Context";
-import { DataUploader } from "../../../components/DataUploader";
 import { IndividualSwitcher } from "../../../components/IndividualSwitcher";
+import { TestingTable } from "../../../components/TestingTable";
 
 export const AppContainer = () => {
   const [sum, setSum] = useState("");
-  const { sumData, currentTable } = useContext(Context);
+  const { sumData } = useContext(Context);
 
   const makeSum = () => {
     let totalSum = 0;
@@ -34,10 +34,11 @@ export const AppContainer = () => {
 
   return (
     <div className={styles.appContainer}>
-      <DataUploader />
+      {/*<DataUploader />a*/}
       <IndividualSwitcher />
       <TableSwitcher />
-      {currentTable == 1 ? <InputTable /> : <DataUploader />}
+      {/*currentTable == 1 ? <InputTable /> : <DataUploader />*/}
+      <TestingTable />
       <Button text="Submit" colorVariant="secondary" reaction={makeSum} />
       <p>Sum is: {sum}</p>
       <ResultTable />

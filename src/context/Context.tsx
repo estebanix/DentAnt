@@ -1,4 +1,5 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
+import individualsData from "./../data/individualsData.json";
 
 export interface ContextType {
   siteValue: number;
@@ -9,6 +10,8 @@ export interface ContextType {
   setCurrentTable: (value: number) => void;
   currentIndividual: string;
   setCurrentIndividual: (value: string) => void;
+  testingData: object;
+  setTestingData: (value: object) => void;
 }
 
 export const Context = createContext<ContextType>({} as ContextType);
@@ -17,7 +20,12 @@ const ContextProvider = (props: any) => {
   const [siteValue, setSiteValue] = useState(1);
   const [sumData, setSumData] = useState({});
   const [currentTable, setCurrentTable] = useState(1);
-  const [currentIndividual, setCurrentIndividual] = useState("")
+  const [currentIndividual, setCurrentIndividual] = useState("");
+  const [testingData, setTestingData] = useState({});
+
+  useEffect(() => {
+    setTestingData(individualsData);
+  }, [testingData])
 
   return (
     <Context.Provider
@@ -29,7 +37,9 @@ const ContextProvider = (props: any) => {
         currentTable,
         setCurrentTable,
         currentIndividual,
-        setCurrentIndividual
+        setCurrentIndividual,
+        testingData,
+        setTestingData
       }}
     >
       {props.children}
