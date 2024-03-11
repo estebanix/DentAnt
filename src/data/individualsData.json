@@ -2,41 +2,126 @@
   "individuals": [
     {
       "id": 1,
-      "data": [
-        ["Player", "Position", "Goals"],
-        ["John Doe", "Forward", 25],
-        ["Jane Smith", "Defense", 10],
-        ["Mike Johnson", "Goalie", 5],
-        ["Sarah Brown", "Forward", 30],
-        ["Alex Miller", "Defense", 15],
-        ["Chris White", "Goalie", 8]
+      "pages": [
+        {
+          "pageTitle": "Season 1",
+          "data": [
+            ["Player", "Position", "Goals"],
+            ["Wayne Gretzky", "Forward", 894],
+            ["Bobby Orr", "Defense", 270],
+            ["Patrick Roy", "Goalie", 66],
+            ["Mario Lemieux", "Forward", 690],
+            ["Ray Bourque", "Defense", 410],
+            ["Martin Brodeur", "Goalie", 691]
+          ]
+        },
+        {
+          "pageTitle": "Season 2",
+          "data": [
+            ["Player", "Position", "Goals"],
+            ["Sidney Crosby", "Forward", 486],
+            ["Erik Karlsson", "Defense", 139],
+            ["Carey Price", "Goalie", 0],
+            ["Alex Ovechkin", "Forward", 730],
+            ["Drew Doughty", "Defense", 134],
+            ["Henrik Lundqvist", "Goalie", 0]
+          ]
+        },
+        {
+          "pageTitle": "Season 3",
+          "data": [
+            ["Player", "Position", "Goals"],
+            ["Connor McDavid", "Forward", 164],
+            ["Victor Hedman", "Defense", 101],
+            ["Andrei Vasilevskiy", "Goalie", 0],
+            ["Nathan MacKinnon", "Forward", 185],
+            ["Cale Makar", "Defense", 24],
+            ["Tuukka Rask", "Goalie", 0]
+          ]
+        }
       ]
     },
     {
       "id": 2,
-      "data": [
-        ["Player", "Position", "Goals"],
-        ["Emma Davis", "Forward", 18],
-        ["Ryan Wilson", "Defense", 12],
-        ["Lily Thompson", "Goalie", 3],
-        ["Jake Miller", "Forward", 22],
-        ["Olivia Johnson", "Defense", 14],
-        ["Tyler Brown", "Goalie", 7]
+      "pages": [
+        {
+          "pageTitle": "Season 1",
+          "data": [
+            ["Player", "Position", "Goals"],
+            ["Emma Davis", "Forward", 18],
+            ["Ryan Wilson", "Defense", 12],
+            ["Lily Thompson", "Goalie", 3],
+            ["Jake Miller", "Forward", 22],
+            ["Olivia Johnson", "Defense", 14],
+            ["Tyler Brown", "Goalie", 7]
+          ]
+        },
+        {
+          "pageTitle": "Season 2",
+          "data": [
+            ["Player", "Position", "Goals"],
+            ["Daniel Johnson", "Forward", 25],
+            ["Sophie White", "Defense", 10],
+            ["Aiden Smith", "Goalie", 5],
+            ["Lily Brown", "Forward", 30],
+            ["Charlie Miller", "Defense", 15],
+            ["Ella Davis", "Goalie", 8]
+          ]
+        },
+        {
+          "pageTitle": "Season 3",
+          "data": [
+            ["Player", "Position", "Goals"],
+            ["Jack Thompson", "Forward", 18],
+            ["Olivia Davis", "Defense", 12],
+            ["Mia Wilson", "Goalie", 3],
+            ["Noah Johnson", "Forward", 22],
+            ["Sophia White", "Defense", 14],
+            ["Logan Smith", "Goalie", 7]
+          ]
+        }
       ]
     },
     {
       "id": 3,
-      "data": [
-        ["Player", "Position", "Goals"],
-        ["Ethan Smith", "Forward", 20],
-        ["Sophia Davis", "Defense", 8],
-        ["Mia Wilson", "Goalie", 6],
-        ["Noah Miller", "Forward", 28],
-        ["Ava Thompson", "Defense", 16],
-        ["Logan White", "Goalie", 10]
+      "pages": [
+        {
+          "pageTitle": "Season 1",
+          "data": [
+            ["Player", "Position", "Goals"],
+            ["Ethan Smith", "Forward", 20],
+            ["Sophia Davis", "Defense", 8],
+            ["Mia Wilson", "Goalie", 6],
+            ["Noah Miller", "Forward", 28],
+            ["Ava Thompson", "Defense", 16],
+            ["Logan White", "Goalie", 10]
+          ]
+        },
+        {
+          "pageTitle": "Season 2",
+          "data": [
+            ["Player", "Position", "Goals"],
+            ["Liam Brown", "Forward", 25],
+            ["Emma Johnson", "Defense", 10],
+            ["Oliver Davis", "Goalie", 5],
+            ["Zoe Wilson", "Forward", 30],
+            ["Aiden Smith", "Defense", 15],
+            ["Grace Miller", "Goalie", 8]
+          ]
+        },
+        {
+          "pageTitle": "Season 3",
+          "data": [
+            ["Player", "Position", "Goals"],
+            ["Lucas Thompson", "Forward", 18],
+            ["Chloe Davis", "Defense", 12],
+            ["Mason Wilson", "Goalie", 3],
+            ["Layla Miller", "Forward", 22],
+            ["Evan Johnson", "Defense", 14],
+            ["Avery Brown", "Goalie", 7]
+          ]
+        }
       ]
     }
   ]
 }
-
-  

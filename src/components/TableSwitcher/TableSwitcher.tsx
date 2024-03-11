@@ -9,7 +9,6 @@ export const TableSwitcher = () => {
 
   const handle = (id: number) => {
     setCurrentTable(id);
-    console.log(id);
   };
   return (
     <>
