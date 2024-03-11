@@ -1,29 +1,42 @@
 {
-    "individuals": [
-      [
-        ["Header 1", "Header 2", "Header 3"],
-        ["Row 1, Cell 1", "Row 1, Cell 2", "Row 1, Cell 3"],
-        ["Row 2, Cell 1", "Row 2, Cell 2", "Row 2, Cell 3"],
-        ["Row 3, Cell 1", "Row 3, Cell 2", "Row 3, Cell 3"],
-        ["Row 4, Cell 1", "Row 4, Cell 2", "Row 4, Cell 3"],
-        ["Row 5, Cell 1", "Row 5, Cell 2", "Row 5, Cell 3"]
-      ],
-      [
-        ["Header 1", "Header 2", "Header 3"],
-        ["Row 1, Cell 1", "Row 1, Cell 2", "Row 1, Cell 3"],
-        ["Row 2, Cell 1", "Row 2, Cell 2", "Row 2, Cell 3"],
-        ["Row 3, Cell 1", "Row 3, Cell 2", "Row 3, Cell 3"],
-        ["Row 4, Cell 1", "Row 4, Cell 2", "Row 4, Cell 3"],
-        ["Row 5, Cell 1", "Row 5, Cell 2", "Row 5, Cell 3"]
-      ],
-      [
-        ["Header 1", "Header 2", "Header 3"],
-        ["Row 1, Cell 1", "Row 1, Cell 2", "Row 1, Cell 3"],
-        ["Row 2, Cell 1", "Row 2, Cell 2", "Row 2, Cell 3"],
-        ["Row 3, Cell 1", "Row 3, Cell 2", "Row 3, Cell 3"],
-        ["Row 4, Cell 1", "Row 4, Cell 2", "Row 4, Cell 3"],
-        ["Row 5, Cell 1", "Row 5, Cell 2", "Row 5, Cell 3"]
+  "individuals": [
+    {
+      "id": 1,
+      "data": [
+        ["Player", "Position", "Goals"],
+        ["John Doe", "Forward", 25],
+        ["Jane Smith", "Defense", 10],
+        ["Mike Johnson", "Goalie", 5],
+        ["Sarah Brown", "Forward", 30],
+        ["Alex Miller", "Defense", 15],
+        ["Chris White", "Goalie", 8]
       ]
-    ]
-  }
+    },
+    {
+      "id": 2,
+      "data": [
+        ["Player", "Position", "Goals"],
+        ["Emma Davis", "Forward", 18],
+        ["Ryan Wilson", "Defense", 12],
+        ["Lily Thompson", "Goalie", 3],
+        ["Jake Miller", "Forward", 22],
+        ["Olivia Johnson", "Defense", 14],
+        ["Tyler Brown", "Goalie", 7]
+      ]
+    },
+    {
+      "id": 3,
+      "data": [
+        ["Player", "Position", "Goals"],
+        ["Ethan Smith", "Forward", 20],
+        ["Sophia Davis", "Defense", 8],
+        ["Mia Wilson", "Goalie", 6],
+        ["Noah Miller", "Forward", 28],
+        ["Ava Thompson", "Defense", 16],
+        ["Logan White", "Goalie", 10]
+      ]
+    }
+  ]
+}
+
   

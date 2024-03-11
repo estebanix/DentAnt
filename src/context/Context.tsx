@@ -8,8 +8,8 @@ export interface ContextType {
   setSumData: (value: object) => void;
   currentTable: number;
   setCurrentTable: (value: number) => void;
-  currentIndividual: string;
-  setCurrentIndividual: (value: string) => void;
+  currentIndividual: number;
+  setCurrentIndividual: (value: number) => void;
   testingData: object;
   setTestingData: (value: object) => void;
 }
@@ -20,7 +20,7 @@ const ContextProvider = (props: any) => {
   const [siteValue, setSiteValue] = useState(1);
   const [sumData, setSumData] = useState({});
   const [currentTable, setCurrentTable] = useState(1);
-  const [currentIndividual, setCurrentIndividual] = useState("");
+  const [currentIndividual, setCurrentIndividual] = useState(1);
   const [testingData, setTestingData] = useState({});
 
   useEffect(() => {

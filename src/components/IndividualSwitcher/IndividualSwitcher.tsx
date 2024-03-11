@@ -13,8 +13,8 @@ interface Individual {
 export const IndividualSwitcher = () => {
   const { currentIndividual, setCurrentIndividual } = useContext(Context);
 
-  const handle = (id: Individual) => {
-    setCurrentIndividual(id.name);
+  const handle = (individual: Individual) => {
+    setCurrentIndividual(individual.id);
   };
 
   return (
@@ -24,7 +24,7 @@ export const IndividualSwitcher = () => {
           return (
             <p
               className={`${styles.tableSwitcherBtn} ${
-                currentIndividual === individual.name ? styles.active : ""
+                currentIndividual === individual.id ? styles.active : ""
               }`}
               key={individual.id}
               onClick={() => handle(individual)}
