@@ -25,7 +25,7 @@ const ContextProvider = (props: any) => {
 
   useEffect(() => {
     setTestingData(individualsData);
-  }, [testingData])
+  }, [1])
 
   return (
     <Context.Provider

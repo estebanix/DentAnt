@@ -1,12 +1,14 @@
-.table{
+.table {
     width: 200px;
     height: auto;
     background-color: turquoise;
-}
-
-.td{
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    border-collapse: collapse;
+  
+    th,
+    td {
+      border: none;
+      padding: 8px;
+      text-align: center;
+    }
+  }
+  

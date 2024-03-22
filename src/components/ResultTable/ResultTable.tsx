@@ -27,12 +27,16 @@ export const ResultTable = () => {
         reaction={() => performCalculation(testingData)}
       />
       <table className={styles.table}>
+        <thead>
+          <tr>
+            <th>Sum</th>
+            <th>Mean</th>
+          </tr>
+        </thead>
         <tbody>
           <tr>
-            <td className={styles.td}>{sum}</td>
-          </tr>
-          <tr>
-            <td className={styles.td}>{mean.toFixed(2)}</td>
+            <td>{sum}</td>
+            <td>{mean.toFixed(2)}</td>
           </tr>
         </tbody>
       </table>
