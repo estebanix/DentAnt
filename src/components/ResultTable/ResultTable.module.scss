@@ -1,5 +1,12 @@
 .table{
     width: 200px;
-    height: 100px;
-    background-color:lightblue;
+    height: auto;
+    background-color: turquoise;
+}
+
+.td{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
