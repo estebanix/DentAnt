@@ -22,16 +22,24 @@ export const TestingTable = () => {
 
   return (
     <div className={styles.tableContainer}>
-      {currentPage?.data.map((row, rowIndex) => (
-        <div key={rowIndex} className={styles.row}>
-          {Array.isArray(row) &&
-            row.map((cell, cellIndex) => (
-              <p key={cellIndex} className={styles.cell}>
-                {cell}
-              </p>
+      <table className={styles.table}>
+        <thead>
+          <tr>
+            {currentPage?.data[0].map((header, headerIndex) => (
+              <th key={headerIndex}>{header}</th>
             ))}
-        </div>
-      ))}
+          </tr>
+        </thead>
+        <tbody>
+          {currentPage?.data.slice(1).map((row, rowIndex) => (
+            <tr key={rowIndex}>
+              {row.map((cell, cellIndex) => (
+                <td key={cellIndex}>{cell}</td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 };

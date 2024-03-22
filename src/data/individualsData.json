@@ -6,37 +6,37 @@
         {
           "pageTitle": "Season 1",
           "data": [
-            ["Player", "Position", "Goals"],
-            ["Wayne Gretzky", "Forward", 894],
-            ["Bobby Orr", "Defense", 270],
-            ["Patrick Roy", "Goalie", 66],
-            ["Mario Lemieux", "Forward", 690],
-            ["Ray Bourque", "Defense", 410],
-            ["Martin Brodeur", "Goalie", 691]
+            ["Num1", "Num2", "Num3"],
+            [72, 39, 864],
+            [79, 53, 742],
+            [87, 62, 910],
+            [71, 49, 723],
+            [68, 47, 811],
+            [93, 64, 899]
           ]
         },
         {
           "pageTitle": "Season 2",
           "data": [
-            ["Player", "Position", "Goals"],
-            ["Sidney Crosby", "Forward", 486],
-            ["Erik Karlsson", "Defense", 139],
-            ["Carey Price", "Goalie", 0],
-            ["Alex Ovechkin", "Forward", 730],
-            ["Drew Doughty", "Defense", 134],
-            ["Henrik Lundqvist", "Goalie", 0]
+            ["Num1", "Num2", "Num3"],
+            [75, 42, 812],
+            [82, 55, 805],
+            [69, 47, 727],
+            [83, 56, 809],
+            [75, 51, 776],
+            [80, 54, 730]
           ]
         },
         {
           "pageTitle": "Season 3",
           "data": [
-            ["Player", "Position", "Goals"],
-            ["Connor McDavid", "Forward", 164],
-            ["Victor Hedman", "Defense", 101],
-            ["Andrei Vasilevskiy", "Goalie", 0],
-            ["Nathan MacKinnon", "Forward", 185],
-            ["Cale Makar", "Defense", 24],
-            ["Tuukka Rask", "Goalie", 0]
+            ["Num1", "Num2", "Num3"],
+            [80, 45, 834],
+            [71, 50, 816],
+            [90, 63, 881],
+            [73, 51, 745],
+            [89, 61, 819],
+            [95, 66, 795]
           ]
         }
       ]
@@ -47,37 +47,37 @@
         {
           "pageTitle": "Season 1",
           "data": [
-            ["Player", "Position", "Goals"],
-            ["Emma Davis", "Forward", 18],
-            ["Ryan Wilson", "Defense", 12],
-            ["Lily Thompson", "Goalie", 3],
-            ["Jake Miller", "Forward", 22],
-            ["Olivia Johnson", "Defense", 14],
-            ["Tyler Brown", "Goalie", 7]
+            ["Num1", "Num2", "Num3"],
+            [78, 42, 837],
+            [72, 50, 733],
+            [88, 60, 828],
+            [86, 59, 806],
+            [75, 51, 747],
+            [67, 45, 725]
           ]
         },
         {
           "pageTitle": "Season 2",
           "data": [
-            ["Player", "Position", "Goals"],
-            ["Daniel Johnson", "Forward", 25],
-            ["Sophie White", "Defense", 10],
-            ["Aiden Smith", "Goalie", 5],
-            ["Lily Brown", "Forward", 30],
-            ["Charlie Miller", "Defense", 15],
-            ["Ella Davis", "Goalie", 8]
+            ["Num1", "Num2", "Num3"],
+            [77, 44, 823],
+            [83, 57, 812],
+            [89, 61, 845],
+            [70, 48, 731],
+            [76, 52, 789],
+            [79, 54, 778]
           ]
         },
         {
           "pageTitle": "Season 3",
           "data": [
-            ["Player", "Position", "Goals"],
-            ["Jack Thompson", "Forward", 18],
-            ["Olivia Davis", "Defense", 12],
-            ["Mia Wilson", "Goalie", 3],
-            ["Noah Johnson", "Forward", 22],
-            ["Sophia White", "Defense", 14],
-            ["Logan Smith", "Goalie", 7]
+            ["Num1", "Num2", "Num3"],
+            [82, 47, 810],
+            [74, 50, 726],
+            [81, 57, 832],
+            [85, 59, 804],
+            [69, 48, 713],
+            [78, 53, 765]
           ]
         }
       ]
@@ -88,37 +88,37 @@
         {
           "pageTitle": "Season 1",
           "data": [
-            ["Player", "Position", "Goals"],
-            ["Ethan Smith", "Forward", 20],
-            ["Sophia Davis", "Defense", 8],
-            ["Mia Wilson", "Goalie", 6],
-            ["Noah Miller", "Forward", 28],
-            ["Ava Thompson", "Defense", 16],
-            ["Logan White", "Goalie", 10]
+            ["Num1", "Num2", "Num3"],
+            [76, 41, 829],
+            [88, 59, 843],
+            [84, 57, 799],
+            [73, 50, 726],
+            [77, 53, 735],
+            [91, 62, 825]
           ]
         },
         {
           "pageTitle": "Season 2",
           "data": [
-            ["Player", "Position", "Goals"],
-            ["Liam Brown", "Forward", 25],
-            ["Emma Johnson", "Defense", 10],
-            ["Oliver Davis", "Goalie", 5],
-            ["Zoe Wilson", "Forward", 30],
-            ["Aiden Smith", "Defense", 15],
-            ["Grace Miller", "Goalie", 8]
+            ["Num1", "Num2", "Num3"],
+            [81, 45, 811],
+            [85, 58, 816],
+            [72, 50, 731],
+            [89, 62, 830],
+            [87, 59, 811],
+            [78, 53, 772]
           ]
         },
         {
           "pageTitle": "Season 3",
           "data": [
-            ["Player", "Position", "Goals"],
-            ["Lucas Thompson", "Forward", 18],
-            ["Chloe Davis", "Defense", 12],
-            ["Mason Wilson", "Goalie", 3],
-            ["Layla Miller", "Forward", 22],
-            ["Evan Johnson", "Defense", 14],
-            ["Avery Brown", "Goalie", 7]
+            ["Num1", "Num2", "Num3"],
+            [79, 43, 805],
+            [82, 56, 798],
+            [77, 52, 741],
+            [86, 59, 803],
+            [80, 54, 788],
+            [74, 51, 729]
           ]
         }
       ]

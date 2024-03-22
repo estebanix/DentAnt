@@ -1,3 +1,29 @@
 .tableContainer {
-    border: 1px solid red;
-}
+    border: 1px solid grey;
+    border-radius: 10px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  td:hover{
+    background-color: turquoise;
+  }
+  
+  th {
+    background-color: lightgray;
+  }
+  
+  td {
+    cursor: pointer;
+  }
+  
+  
