@@ -2,16 +2,21 @@ import { useContext, useState } from "react";
 import { Context } from "../../context/Context";
 import { Button } from "../Button";
 import { calculateSum } from "../../utils/functions/calculateSum";
+import { calculateMean } from "../../utils/functions/calculateMean";
+import { TestingData } from "../../utils/types/functionsTypes";
 
 import styles from "./ResultTable.module.scss";
 
 export const ResultTable = () => {
-  const { testingData } = useContext(Context);
-  const [sum, setSum] = useState(Number);
+  const { testingData } = useContext(Context) as { testingData: TestingData };
+  const [sum, setSum] = useState(0);
+  const [mean, setMean] = useState(0);
 
-  const performCalculation = () => {
-    const sumResult = calculateSum(testingData);
+  const performCalculation = (data: TestingData) => {
+    const sumResult = calculateSum(data);
     setSum(sumResult);
+    const meanResult = calculateMean(data);
+    setMean(meanResult);
   };
 
   return (
@@ -19,12 +24,15 @@ export const ResultTable = () => {
       <Button
         text="Submit"
         colorVariant="secondary"
-        reaction={performCalculation}
+        reaction={() => performCalculation(testingData)}
       />
       <table className={styles.table}>
         <tbody>
           <tr>
             <td className={styles.td}>{sum}</td>
+          </tr>
+          <tr>
+            <td className={styles.td}>{mean.toFixed(2)}</td>
           </tr>
         </tbody>
       </table>

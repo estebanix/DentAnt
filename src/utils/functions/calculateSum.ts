@@ -1,25 +1,4 @@
-interface Cell {
-    value: number | string;
-  }
-  
-  interface Row {
-    cells: Cell[];
-  }
-  
-  interface Page {
-    pageTitle: string;
-    data: Row[];
-  }
-  
-  interface Individual {
-    id: number;
-    pages: Page[];
-  }
-  
-  interface TestingData {
-    individuals: Individual[];
-  }
-  
+import { TestingData } from "../types/functionsTypes";
 
 export const calculateSum = (data : TestingData) => {
     let sum = 0;
